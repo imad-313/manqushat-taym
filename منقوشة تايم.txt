@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منقوشة تايم</title>
+    <style>
+        body {
+            background-color: #fff;
+            color: #4a2f20;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a2f20;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #4a2f20;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .menu-section {
+            padding: 20px;
+        }
+        .menu-section h2 {
+            border-bottom: 2px solid #4a2f20;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+        .item img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #4a2f20;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+        }
+        footer .contact-info {
+            margin-bottom: 10px;
+        }
+        .spacer {
+            height: 50px; /* لإضافة مساحة كافية بين النصوص في الأسفل والمحتوى */
+        }
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4a2f20;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+            z-index: 1000; /* ضمان ظهور الزر فوق العناصر الأخرى */
+        }
+        .scroll-to-top:hover {
+            background-color: #682f20;
+        }
+    </style>
+</head>
+<body>
+
+<header>منقوشة تايم</header>
+
+<nav>
+    <a href="#manaqish">مناقيش</a>
+    <a href="#pizza">بيتزا</a>
+    <a href="#others">غيرها</a>
+    <a href="#drinks">مشروبات</a>
+</nav>
+
+<div id="manaqish" class="menu-section">
+    <h2>مناقيش</h2>
+    <div class="item">
+        <span>زعتر</span><span>50,000 ل.ل</span><img src="https://www.mado.menu/wp-content/uploads/2022/07/Manoush-Zaatar-1.jpg" alt="زعتر">
+    </div>
+    <div class="item">
+        <span>زعتر وخضرة</span><span>75,000 ل.ل</span><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FyomyatRestaurants%2Fposts%2F%25D8%25A7%25D8%25B7%25D9%258A%25D8%25A8-%25D8%25AA%25D8%25B1%25D9%2588%25D9%258A%25D9%2582%25D8%25A9-%25D9%2585%25D9%2586%25D9%2582%25D9%2588%25D8%25B4%25D8%25A9-%25D8%25B2%25D8%25B9%25D8%25AA%25D8%25B1-%25D8%25A8%25D8%25A7%25D9%2584%25D8%25AE%25D8%25B6%25D8%25A7%25D8%25B1-%25D9%2585%25D9%2586%25D8%25B4%25D9%2586-%25D9%2584%25D8%25AD%25D8%25AF%25D8%25A7-%25D9%258A%25D8%25AF%25D9%2584%25D9%2584%25D9%2583-%25D9%2588%25D9%258A%25D8%25B9%25D8%25B2%25D9%2585%25D9%2583-%25D8%25B9%25D9%2584%25D9%2589-%25D9%2587%25D9%258A%25D9%2583-%25D8%25AA%25D8%25B1%25D9%2588%25D9%258A%25D9%2582%25D8%25A9-%2F2087782148135756%2F%3Flocale%3Dar_AR&psig=AOvVaw2cBREB9k4kQM1o0MFEfeGi&ust=1719062071056000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjS_MTj7IYDFQAAAAAdAAAAABAE" alt="زعتر وخضرة">
+    </div>
+    <div class="item">
+        <span>جبنة</span><span>150,000 ل.ل</span><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mado.menu%2Fmenuitems%2F%25D9%2585%25D9%2586%25D9%2582%25D9%2588%25D8%25B4%25D8%25A9-%25D8%25AC%25D8%25A8%25D9%2586-%25D9%2585%25D8%25B4%25D9%2583%25D9%2584%2F&psig=AOvVaw2R2NuxLGwZHeNlmNUt4LgS&ust=1719062151321000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjK6N3j7IYDFQAAAAAdAAAAABAE" alt="جبنة">
+    </div>
+    <div class="item">
+        <span>جبنة وزعتر</span><span>100,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="جبنة وزعتر">
+    </div>
+    <div class="item">
+        <span>كشك</span><span>150,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="كشك">
+    </div>
+    <div class="item">
+        <span>لحمة بعجين</span><span>75,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="لحمة بعجين">
+    </div>
+</div>
+
+<div id="pizza" class="menu-section">
+    <h2>بيتزا</h2>
+    <div class="item">
+        <span>مارغريتا - الحجم الصغير</span><span>200,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="مارغريتا - الحجم الصغير">
+    </div>
+    <div class="item">
+        <span>مارغريتا - الحجم الوسط</span><span>350,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="مارغريتا - الحجم الوسط">
+    </div>
+    <div class="item">
+        <span>مارغريتا - الحجم الكبير</span><span>500,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="مارغريتا - الحجم الكبير">
+    </div>
+    <div class="item">
+        <span>خضرة - الحجم الصغير</span><span>250,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="خضرة - الحجم الصغير">
+    </div>
+    <div class="item">
+        <span>خضرة - الحجم الوسط</span><span>400,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="خضرة - الحجم الوسط">
+    </div>
+    <div class="item">
+        <span>خضرة - الحجم الكبير</span><span>600,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="خضرة - الحجم الكبير">
+    </div>
+    <div class="item">
+        <span>حبش - الحجم الصغير</span><span>250,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="حبش - الحجم الصغير">
+    </div>
+    <div class="item">
+        <span>حبش - الحجم الوسط</span><span>450,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="حبش - الحجم الوسط">
+    </div>
+    <div class="item">
+        <span>حبش - الحجم الكبير</span><span>650,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="حبش - الحجم الكبير">
+    </div>
+    <div class="item">
+        <span>مرتديلا - الحجم الصغير</span><span>250,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="مرتديلا - الحجم الصغير">
+    </div>
+    <div class="item">
+        <span>مرتديلا - الحجم الوسط</span><span>400,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="مرتديلا - الحجم الوسط">
+    </div>
+    <div class="item">
+        <span>مرتديلا - الحجم الكبير</span><span>600,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="مرتديلا - الحجم الكبير">
+    </div>
+</div>
+
+<div id="others" class="menu-section">
+    <h2>غيرها</h2>
+    <div class="item">
+        <span>كعكة عصرونية</span><span>350,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="كعكة عصرونية">
+    </div>
+    <div class="item">
+        <span>كعكة عصرونية مع مرتديلا</span><span>450,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="كعكة عصرونية مع مرتديلا">
+    </div>
+    <div class="item">
+        <span>رغيف جبنة</span><span>200,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="رغيف جبنة">
+    </div>
+    <div class="item">
+        <span>رغيفة جبنة مع مرتديلا</span><span>300,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="رغيفة جبنة مع مرتديلا">
+    </div>
+    <div class="item">
+        <span>منوعات - نص كيلو</span><span>350,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="منوعات - نص كيلو">
+    </div>
+    <div class="item">
+        <span>منوعات - كيلو</span><span>650,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="منوعات - كيلو">
+    </div>
+    <div class="item">
+        <span>لحمة بعجين - نص كيلو</span><span>450,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="لحمة بعجين - نص كيلو">
+    </div>
+    <div class="item">
+        <span>لحمة بعجين - كيلو</span><span>850,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="لحمة بعجين - كيلو">
+    </div>
+</div>
+
+<div id="drinks" class="menu-section">
+    <h2>مشروبات</h2>
+    <div class="item">
+        <span>مياه</span><span>25,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="مياه">
+    </div>
+    <div class="item">
+        <span>ببسي، سفن اب، ميرندا</span><span>100,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="ببسي، سفن اب، ميرندا">
+    </div>
+    <div class="item">
+        <span>بونجيس هرم</span><span>35,000 ل.ل</span><img src="https://via.placeholder.com/100" alt="بونجيس هرم">
+    </div>
+</div>
+
+<div class="spacer"></div>
+
+<footer>
+    <div class="contact-info">
+        <p>رقم الواتساب: 81 642 941</p>
+        <p>رقم الديليفري: 81 661 538</p>
+    </div>
+    <img src="https://via.placeholder.com/100" alt="QR Code">
+</footer>
+
+<button class="scroll-to-top" onclick="scrollToTop()">^</button>
+
+<script>
+    // عرض زر العودة لأعلى عند الانتقال للأسفل
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.querySelector(".scroll-to-top").style.display = "block";
+        } else {
+            document.querySelector(".scroll-to-top").style.display = "none";
+        }
+    }
+
+    // الانتقال إلى أعلى الصفحة عند النقر على الزر
+    function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+</body>
+</html>
